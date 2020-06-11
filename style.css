@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: black;
 }
@@ -156,10 +160,24 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
-@media (max-width: 900px) {
+.res-img {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+  .carousel-item .card-body {
+    display: block;
+  }
+
+  .res-img {
+    visibility: visible;
+  }
+
   .third-section img {
-    width: 100%;
-    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    height: 100%;
   }
 
   .stat p {
@@ -170,10 +188,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2% 10% 10% 10%;
     background-color: white;
     opacity: 0.8;
+    margin-top: 200px;
   }
 
-  .mobile {
-    height: 200px;
+  .mobile img {
+    display: none;
   }
 
   .main-img {
