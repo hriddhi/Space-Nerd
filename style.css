@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-img {
-  width: 85%;
+  width: 70%;
   position: absolute;
   z-index: 10;
   right: 0;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 .third-section .card-body {
   position: relative;
   padding: 0;
-  max-height: 500px;
+  max-height: 800px;
   overflow: hidden;
 }
 
@@ -136,12 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stat {
-  padding: 2% 0 3% 3%;
+  padding: 2% 50px 5% 20px;
 }
 
 .stat .row {
   padding: 3% 0;
-  margin-right: 10%;
+
   border: solid;
   border-width: 0 0 1px 0;
   border-color: #d9d9d9;
@@ -154,4 +154,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat .values {
   text-align: right;
+}
+
+@media (max-width: 900px) {
+  .third-section img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .stat p {
+    font-weight: bold;
+  }
+
+  .stat {
+    padding: 2% 10% 10% 10%;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  .mobile {
+    height: 200px;
+  }
+
+  .main-img {
+    visibility: hidden;
+  }
 }
