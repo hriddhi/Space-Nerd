@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 3% 8%;
+}
+
+.navbar i {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 85%;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+}
+
+.main-title {
+  padding: 8% 10% 0 10%;
+  color: #6e6e6e;
+}
+
+.main-p {
+  padding: 2% 10%;
+  color: #6e6e6e;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.side-p {
+  padding: 0 10%;
+  color: #6e6e6e;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: right;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.second-section {
+  position: relative;
+  background-color: #242424;
+  padding: 0 2% 3% 2%;
+}
+
+.second-section h1 {
+  color: white;
+  margin: 2% 1%;
+}
+
+.second-section .card {
+  background-color: #ebebeb;
+  width: 250px;
+  height: 400px;
+  margin: 0 1%;
+  border: none;
+  border-radius: 0;
+  display: inline-block
+
+}
+
+.second-section .card-title {
+  text-align: center;
+  padding: 3% 0;
+  background-color: #808080;
+}
+
+.second-section .card-body {
+  padding-top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  white-space: normal;
+  position: absolute;
+}
+
+.second-section .card-img-top {
+  padding-top: 5%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5%;
+}
+
+.third-section {
+  padding: 3% 0;
+  margin: 0;
+}
+
+.main-row h1 {
+  text-align: center;
+  color: white;
+}
+
+.third-section .main-row {
+  margin: 0;
+}
+
+.third-section .card {
+  padding: 0;
+  margin: 0 10%;
+  border: none;
+  border-radius: 0;
+}
+
+.third-section .card-body {
+  position: relative;
+  padding: 0;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.third-section img {
+  width: 100%;
+}
+
+.stat {
+  padding: 2% 0 3% 3%;
+}
+
+.stat .row {
+  padding: 3% 0;
+  margin-right: 10%;
+  border: solid;
+  border-width: 0 0 1px 0;
+  border-color: #d9d9d9;
+}
+
+.stat p {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.stat .values {
+  text-align: right;
+}
