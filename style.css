@@ -159,7 +159,6 @@ h1, h2, h3, h4, h5, h6 {
 .third-section img {
   position: absolute;
   width: 100%;
-
 }
 
 .stat .row {
@@ -217,8 +216,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .card-body .col-lg-7 {
-    margin: 200px 0 0 0;
-    padding: 0 5% 100px;
+    margin: 150px 0 0 0;
+    padding: 0 5%;
     background-color: white;
     opacity: 0.8;
   }
