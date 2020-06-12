@@ -39,7 +39,7 @@
           <p class="side-p">- Elon Musk, 2012</p>
         </div>
         <div class="col-md-3 img-container">
-          <img class="main-img d-block ml-auto" src="image/saturn_v.png" alt="Saturn V">
+          <img class="main-img" src="image/saturn_v.png" alt="Saturn V">
         </div>
       </div>
     </div>
@@ -109,21 +109,21 @@
     <div class="row main-row">
       <div class="container">
         <h1>STATS FOR NERD</h1>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <!-- card 1 -->
             <div class="carousel-item active">
               <div class="card">
                 <div class="card-body">
-                  <img class="res-img" src="image/falcon9.jpg" alt="Falcon 9">
                   <div class="row">
-                    <div class="col-lg-5 mobile">
-                      <img src="image/falcon9.jpg" alt="Falcon 9">
+                    <div class="col-lg-5">
+                      <div class="card-image">
+                        <img src="image/falcon9.jpg" alt="Falcon 9">
+                      </div>
                     </div>
                     <div class="col-lg-7 stat">
                       <div class="row">
                         <div class="col-12">
-                          <h3>Falcon 9</h3>
+                          <h3 class="d-inline">Falcon 9</h3>
                         </div>
                       </div>
                       <div class="row">
@@ -162,15 +162,17 @@
                   </div>
                 </div>
               </div>
+              <!-- Card End -->
             </div>
-            <!-- Card 2 -->
+            <!-- Item End -->
             <div class="carousel-item">
               <div class="card">
                 <div class="card-body">
-                  <img class="res-img" src="image/falcon_heavy.jpg" alt="Falcon 9">
                   <div class="row">
-                    <div class="col-lg-5 mobile">
-                      <img src="image/falcon_heavy.jpg" alt="Falcon Heavy">
+                    <div class="col-lg-5">
+                      <div class="card-image">
+                        <img src="image/falcon_heavy.jpg" alt="Falcon Heavy">
+                      </div>
                     </div>
                     <div class="col-lg-7 stat">
                       <div class="row">
@@ -214,15 +216,17 @@
                   </div>
                 </div>
               </div>
+              <!-- Card End -->
             </div>
-            <!-- Card 3 -->
+            <!-- Item End -->
             <div class="carousel-item">
               <div class="card">
                 <div class="card-body">
-                  <img class="res-img" src="image/falcon9.jpg" alt="Falcon 9">
                   <div class="row">
-                    <div class="col-lg-5 mobile">
-                      <img src="image/falcon9.jpg" alt="Falcon 9">
+                    <div class="col-lg-5">
+                      <div class="card-image">
+                        <img src="image/falcon9.jpg" alt="Falcon 9">
+                      </div>
                     </div>
                     <div class="col-lg-7 stat">
                       <div class="row">
@@ -266,20 +270,62 @@
                   </div>
                 </div>
               </div>
+              <!-- Card End -->
             </div>
+            <!-- Item End -->
           </div>
-          <!-- Button behaviour -->
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
     </div>
+  </div>
+
+  <footer class="container-fluid footer">
+    <button type="button" class="btn btn-outline-light btn-sm d-block mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
+      Report an issue
+    </button>
+    <div class="container-fluid">
+      <i class="icon fab fa-facebook"></i>
+      <i class="icon fab fa-twitter"></i>
+      <i class="icon fab fa-instagram"></i>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
   </div>
 
   <!-- Bootstrap 4 scripts -->
